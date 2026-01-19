@@ -47,6 +47,7 @@ Este projeto é uma aplicação web de gestão de utilizadores, desenvolvida com
 
 `git clone 
 https://github.com/tai-diasl/gestor-utilizadores.git`
+
 2. Entre na pasta do projeto
 
 `cd nome-do-repositorio
