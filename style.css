@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #050061;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5;
+  margin: 40px 0px 20px 0px;
+}
+
+input {
+  padding: 7px 15px;
+  border-radius: 20px;
+  border-color: transparent;
+  background-color: #edf0f4;
+  width: 50%;
+  margin: 5px auto;
+}
+
+#pesquisaInput {
+  width: 30%;
+  margin: 20px 0px 5px 0px;
+}
+
+.flex {
+  display: flex;
+  gap: 10;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.botoes {
+    margin-bottom: 20px;
+}
+
+button {
+  padding: 7px 15px;
+  border: 2px solid #050061;
+  background-color: #050061;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px auto;
+  border-radius: 20px;
+  font-weight: bold;
+  transition-duration: .3s;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #050061;
+  font-weight: bold;
+  transition-duration: .3s;
+}
+
+.cartao {
+  width: 250px;
+  padding: 30px;
+  margin: 20px;
+  background-color: #f2f4f6;
+  box-shadow: 1px 1px 2px #575757;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.cartao:hover {
+  background-color: #ffffff;
+  transform: scale(1.1);
+}
+
+.cartao p {
+  margin: 15px;
+}
+
+.ativo {
+  color: #00f;
+  font-weight: bold;
+}
+
+#contadorAtivos {
+  color: #00f;
+}
+
+.btnRemover {
+  background-color: #fff;
+  color: #f00;
+  border: 2px solid #f00;
+  margin-left: 5px;
+}
+
+.btnRemover:hover {
+  background-color: #f00;
+  color: #fff;
+}
+
+#contadorInativos {
+  color: #f00;
+}
+
+.inativo {
+  color: #f00;
+  font-weight: bold;
+}
+
+.contadores {
+  text-align: end;
+  margin: 10px;
+  font-weight: bold;
+}
+
+#msgAlerta {
+  text-align: center;
+  color: #f00;
+}
+
+
+/*modal*/
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 300px;
+  text-align: center;
+}
+
+.modal p {
+    margin: 10px;
+}
+
+.hidden {
+  display: none;
+}

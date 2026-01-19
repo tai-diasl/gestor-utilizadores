@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+  <title>Gestor de Utilizadores</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gestor de Utilizadores</h1>
+    <div class="contadores flex">
+      <p id="contadorUtilizadores"></p> &nbsp;|&nbsp;
+      <p id="exibirPercentual"></p>
+    </div>
+    <div class="contadores flex">
+      <p id="contadorAtivos"></p> &nbsp;|&nbsp;
+      <p id="contadorInativos"></p>
+    </div>
+
+    <div class="inputContainer">
+      <p id="msgAlerta"></p>
+      <input type="text" id="nomeInput" placeholder="Nome" required>
+      <input type="email" id="emailInput" placeholder="Email" required>
+      <button id="btnAdicionar">Adicionar</button>
+    </div>
+
+    <div class="flex">
+      <input type="text" id="pesquisaInput" placeholder="Procurar utilizador">
+    </div>
+
+    <div class="flex botoes">
+      <button id="btnOrdenar">Ordenar A-Z</button>
+      <button id="btnFiltrarAtivos">Mostrar apenas ativos</button>
+      <button id="btnMostrarTodos">Mostrar todos</button>
+    </div>
+    
+    <div id="output" class="flex"></div>
+
+    <div id="modalDetalhes" class="modal hidden">
+      <div class="modal-content">
+        <h2>Detalhes do Utilizador</h2>
+
+        <p id="detalheNome"></p>
+        <p id="detalheEmail"></p>
+        <p id="detalheEstado"></p>
+
+        <button id="btnFecharModal">Fechar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
