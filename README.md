@@ -50,7 +50,7 @@ https://github.com/tai-diasl/gestor-utilizadores.git`
 
 2. Entre na pasta do projeto
 
-`cd nome-do-repositorio
+`cd gestor-utilizadores
 `
 
 3. Compile o TypeScript para JavaScript
